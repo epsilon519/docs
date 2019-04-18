@@ -30,7 +30,7 @@ This will cause the job to run on just the remote Nodes (eg., centos54 and ubunt
 
 Type in shell script that produces some information (eg, `uname -a`)
 
-Save the Workflow step by clicking save. If this step is not saved you will not be able to create the job.
+Save the Workflow step. If this step is not saved you will not be able to create the job.
 
 Press the "Create" button at the bottom of the page.
 

@@ -22,13 +22,15 @@ Give the job a description. It's best practice to give a short description on th
 Create one blank line and all subsequent lines can use markdown format.
 You can see line 3, has text that show a URL link in markdown format. When Rundeck shows the job, this extra information can be displayed to the user. Rich text is useful to link to external tools or even charts and graphs. Anything useful to support the job user.
 
-Check the box for "Dispatch to Nodes".
+Under "Add a Step" select "Command - Execute a remote command"
+
+Select the radio button for "Dispatch to Nodes" for the Nodes option.
 Choose the "Node Exclude Filters" and enter the name of your Rundeck server.
 This will cause the job to run on just the remote Nodes (eg., centos54 and ubuntu).
 
 Type in shell script that produces some information (eg, `uname -a`)
 
-Save the Workflow step.
+Save the Workflow step by clicking save. If this step is not saved you will not be able to create the job.
 
 Press the "Create" button at the bottom of the page.
 
